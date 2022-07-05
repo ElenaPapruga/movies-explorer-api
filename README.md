@@ -1,5 +1,4 @@
 # Диплом от Яндекс.Практикума
-В данном проекте использовались Node.js, API, Express.js, MongoDB.
 
 Адрес сервера: api.epapruga.nomoredomains.sbs
 
@@ -26,12 +25,12 @@ Create React App;
 Хуки.
 
 ## Backend:
-Node.js;
-Express;
-MongoDB;
-Сelebrate;
-Winston.
-CORS.
+Node.js,
+Express,
+MongoDB,
+Сelebrate,
+Winston,
+CORS,
 express-rate-limit
 
 ## Поля схемы user:

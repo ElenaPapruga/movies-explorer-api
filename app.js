@@ -10,7 +10,7 @@ const { errorLogger, requestLogger } = require('./middlewares/logger');
 const NotFoundError = require('./errors/notFoundError');
 
 const {
-  PORT = 3001,
+  PORT = 3005,
   MONGO_URL,
   NODE_ENV,
   DEFAULT_URL = 'mongodb://localhost:27017/filmsdb',

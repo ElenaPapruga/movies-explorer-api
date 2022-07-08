@@ -25,8 +25,8 @@ app.use(cors({
   origin: [
     'http://localhost:3000',
     'https://localhost:3000',
-    'http://localhost:3001',
-    'https://localhost:3001',
+    'http://localhost:3005',
+    'https://localhost:3005',
     'https://epapruga.nomoredomains.sbs',
     'http://epapruga.nomoredomains.sbs',
     'https://api.epapruga.nomoredomains.sbs',

@@ -80,7 +80,7 @@ const login = (request, response, next) => {
               email: user.email,
               name: user.name,
             },
-            NODE_ENV === 'production' ? JWT_SECRET : 'secret-key',
+            NODE_ENV === 'production' ? JWT_SECRET : 'some-secret-key',
             { expiresIn: '7d' },
           );
           // вернём токен

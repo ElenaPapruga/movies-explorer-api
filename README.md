@@ -1,6 +1,9 @@
 # Диплом от Яндекс.Практикума
 
-Адрес сервера: api.epapruga.nomoredomains.sbs
+Адрес сервера: epapruga.nomoredomains.sbs
+api.epapruga.nomoredomains.sbs
+
+Публичный IPv4: 51.250.96.194
 
 Функционал сайта: сайт с описанием разработчика, вход на сайт через регистрацию пользователя, под своим логином пользователь может создавать свою фильмотеку.
 
@@ -25,12 +28,12 @@ Create React App;
 Хуки.
 
 ## Backend:
-Node.js,
-Express,
-MongoDB,
-Сelebrate,
-Winston,
-CORS,
+Node.js;
+Express;
+MongoDB;
+Сelebrate;
+Winston.
+CORS.
 express-rate-limit
 
 ## Поля схемы user:

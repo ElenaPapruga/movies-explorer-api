@@ -53,16 +53,8 @@ const validationLogin = celebrate({
 // Для роута users
 const validationUpdateUser = celebrate({
   body: Joi.object().keys({
-    name: Joi.string().min(2).max(30).required()
-      .messages({
-        'string.min': 'Минимальная длина поля "name" - 2',
-        'string.max': 'Максимальная длина поля "name" - 30',
-        'any.required': 'Поле "name" должно быть заполнено',
-      }),
-    email: Joi.string().email().required()
-      .messages({
-        'any.required': 'Поле "email" должно быть заполнено',
-      }),
+    name: Joi.string().min(2).max(30).required(),
+    email: Joi.string().email().required(),
   }),
 });
 

@@ -10,6 +10,8 @@ const routes = require('./routes');
 const errorHandler = require('./middlewares/errorHandler');
 const { errorLogger, requestLogger } = require('./middlewares/logger');
 
+// Проверка
+
 const {
   PORT = 3005,
   MONGO_URL,

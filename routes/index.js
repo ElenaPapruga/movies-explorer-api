@@ -7,8 +7,8 @@ const routerMovie = require('./movies');
 
 router.use(routerAuth);
 router.use(auth);
-router.use('./users', usersRout);
-router.use('./movies', routerMovie);
+router.use('/users', usersRout);
+router.use('/movies', routerMovie);
 router.all('*', (res, req, next) => {
   next(new NotFoundError('Ошибка 404 - страницы не существует'));
 });
